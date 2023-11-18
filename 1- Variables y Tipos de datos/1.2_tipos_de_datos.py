@@ -49,6 +49,15 @@ numero = 42
 resultado = f"{numero} al cuadrado es: {numero ** 2}."
 print(resultado)
 
+# Otra forma de concatenar es con "format"
+# Es una función incorporada de Python que le permite formatear cadenas.
+# El método "format()" toma un número ilimitado de argumentos que se le pasan y los inserta en la cadena donde están los marcadores de posición {}.
+x = "Abel"
+y = "Tomás"
+e = 25
+format_ejemplo = "Hola, me llamo {} {} y tengo {} años.".format(x, y, e)
+print(format_ejemplo)
+
 
 # COMENTARIOS
 # Los comentarios son lineas de código que no se ejecutan, utilizando "#" al inicio de la linea.
