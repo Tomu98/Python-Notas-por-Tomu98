@@ -14,7 +14,7 @@ mensaje_num = "24"
 print(numeros)
 
 
-# type(): Retorna el tipo de un objeto.
+# type(): Retorna el tipo de un dato
 tipo = type(numeros)
 
 
