@@ -28,13 +28,16 @@ numero_float = 40.1   # "Float" para números racionales, se utiliza punto.
 verdadero = True  # bool verdadero
 falso = False     # bool falso
 
-
+# Bytes (bytes)
+# Es un tipo de dato que contiene una secuencia de bytes.
+# Se utiliza para representar datos binarios.
+# Se puede crear con la función incorporada "bytes()" o con un prefijo "b" antes de las comillas.
+dato_bytes = b"texto"   # bytes con prefijo "b"
 
 # CONCATENAMIENTO
 # La acción de combinar o unir dos o más strings en una sola cadena más larga.
 # Se puede concatenar con "+":
 bienvenida = "Hola" + " ¿Como estas?"
-print(bienvenida)
 
 # Tambien se puede concatenar con "f-strings"
 # Es la interpolación de variables y expresiones en cadenas de una manera más legible y conveniente.
@@ -42,12 +45,10 @@ print(bienvenida)
 nombre = "Abel"
 edad = 24
 cadena = f"Hola, me llamo {nombre} y tengo {edad} años."
-print(cadena)
 
 # Las "f-strings" también pueden contener expresiones más complejas:
 numero = 42
 resultado = f"{numero} al cuadrado es: {numero ** 2}."
-print(resultado)
 
 # Otra forma de concatenar es con "format"
 # Es una función incorporada de Python que le permite formatear cadenas.
@@ -56,7 +57,6 @@ x = "Abel"
 y = "Tomás"
 e = 25
 format_ejemplo = "Hola, me llamo {} {} y tengo {} años.".format(x, y, e)
-print(format_ejemplo)
 
 
 # COMENTARIOS
