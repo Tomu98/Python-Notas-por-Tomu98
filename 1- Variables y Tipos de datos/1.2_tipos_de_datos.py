@@ -48,3 +48,11 @@ print(cadena)
 numero = 42
 resultado = f"{numero} al cuadrado es: {numero ** 2}."
 print(resultado)
+
+
+# COMENTARIOS
+# Los comentarios son lineas de código que no se ejecutan, utilizando "#" al inicio de la linea.
+# Sirven para explicar el código, hacerlo más legible y pueden ir en cualquier parte del código.
+
+# Tambien se utiliza ' """ ' para comentarios de varias lineas
+# Sirve por ejemplo para explicar al principio del archivo el funcionamiento del modulo.
