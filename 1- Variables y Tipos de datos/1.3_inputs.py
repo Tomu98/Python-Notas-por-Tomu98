@@ -5,7 +5,7 @@
 nombre = input("Escriba su nombre: ")
 print(nombre)
 
-# El dato que nos va a devolver un input es SIEMPRE un TEXTO.
+# El dato que nos va a devolver un input es SIEMPRE un STRING.
 # Para convertir ese input en un número, se utiliza "int()" o "float()"
 numero_int = int(input("Escriba un numero entero: "))
 numero_float = float(input("Escriba un número racional: "))

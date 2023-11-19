@@ -2,7 +2,6 @@
 
 # Una variable es un espacio donde almacenamos datos, cada variable contiene un dato especifico.
 # Las variables pueden tener un dato simple (variable) o un dato compuesto (iterable).
-
 # Sintaxis:
 nombre = "Dato"   # Definiendo una variable.
 
@@ -69,6 +68,7 @@ print(edad)
 # - Variables Globales:
 # Son aquellas que se definen fuera de cualquier función o bloque de código.
 # Son accesibles desde cualquier parte del programa, incluidas las funciones.
+
 # Ejemplo:
 variable_global = "¡Hola, soy una variable global!"    # Variable global
 
