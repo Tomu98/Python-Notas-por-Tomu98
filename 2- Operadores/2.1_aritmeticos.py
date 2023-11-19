@@ -1,4 +1,7 @@
-# --- OPERADORES ARITMETICOS ---
+# --- OPERADORES ARITMÉTICOS ---
+
+# Los operadores aritméticos son los que se utilizan para realizar operaciones matemáticas en Python.
+# Sirven para hacer calculos matemáticos con variables y valores dentro del código.
 
 # Suma y Resta (+ y -).
 suma = 12 + 5

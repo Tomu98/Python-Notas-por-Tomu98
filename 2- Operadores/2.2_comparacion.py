@@ -1,7 +1,7 @@
 # --- OPERADORES DE COMPARACION ---
 
-# Valor - operador - valor
-# Los operadores de comparación nos devuelven "True" o "False".
+# Los operadores de comparación se utilizan para comparar dos valores y devolver un resultado booleano (True o False).
+# Su sintaxis es: "valor1 operador valor2".
 
 igual_que = 5 == 6       # Nos da "False" porque 5 no es igual que 6.
 distinto_de = 5 != 6     # Nos da "True" porque 5 es distinto a 6.
