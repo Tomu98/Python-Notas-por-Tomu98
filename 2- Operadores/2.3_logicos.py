@@ -1,4 +1,4 @@
-# --- OPERADORES LOGICOS ---
+# OPERADORES LOGICOS
 
 # Los operadores lógicos se utilizan para comparar expresiones y devolver un resultado booleano (True o False).
 
@@ -32,4 +32,4 @@ b = 4
 if a < 4 and b > 6:
     print("Ambas expresiones son verdaderas")
 else:
-    print("Una expresion es falsa")
+    print("Una expresión es falsa")
