@@ -1,18 +1,14 @@
-# --- EXCEPCIONES ---
+# EXCEPCIONES
 
-# Las excepciones son eventos inesperados o errores que pueden ocurrir durante la ejecución de un programa en Python.
+# Las excepciones son eventos inesperados o errores que pueden ocurrir durante la ejecución de un programa.
 # Estos errores pueden ser causados por diversas razones, como errores de sintaxis, problemas de lógica, operaciones matemáticas inválidas, intentos de acceder a variables inexistentes y más.
 # Python maneja estas excepciones mediante un mecanismo de manejo de errores que te permite tomar acciones específicas cuando ocurren excepciones.
-# El manejo de excepciones es fundamental para escribir programas robustos y evitar que se detengan inesperadamente debido a errores y tambien es una parte importante de la programación defensiva.
 
-
-# Bloques "try", "except", y "finally"
-# Para manejar excepciones en Python, puedes utilizar bloques "try", "except", y "finally".
 
 # "try"
 # Se utiliza para rodear el código que puede generar excepciones.
 # Su función principal es detectar y controlar las excepciones que pueden ocurrir dentro de él.
-# Si ocurre una excepción en el bloque "try", la ejecución del programa se desvía al bloque "except" correspondiente.
+# Si ocurre una excepción en este bloque "try", la ejecución del programa se desvía al bloque "except" correspondiente.
 # Dentro del bloque "try", debes colocar el código que deseas supervisar en busca de excepciones.
 # Puedes tener múltiples bloques "except", cada uno manejando un tipo diferente de excepción.
 # Si se lanza una excepción que coincide con uno de los tipos especificados en los bloques "except", se ejecutará el bloque "except" correspondiente.
@@ -20,8 +16,7 @@
 # "except"
 # Se utiliza para manejar las excepciones que se producen dentro del bloque "try".
 # Cada bloque "except" maneja un tipo particular de excepción y puede ejecutar código personalizado para manejar esa excepción.
-# - "ExcepcionTipo" es el tipo de excepción que se está manejando.
-# Puedes especificar el tipo de excepción después de la palabra clave "except".
+# "ExcepcionTipo" es el tipo de excepción que se está manejando, puedes especificar el tipo de excepción después de la palabra clave "except".
 # Dentro del bloque "except", puedes incluir código que se ejecutará cuando se capture la excepción correspondiente.
 
 # "finally"
@@ -32,6 +27,7 @@
 
 # Ejemplo:
 def dividir(a, b):
+    """Función de división"""
     try:
         resultado = a / b
     except ZeroDivisionError:
@@ -53,6 +49,7 @@ print(dividir(5, 0))   # Intento de división por cero
 
 # Otro ejemplo:
 def sumar_dos():
+    """Función que suma dos argumentos"""
     while True:
         a = input("Número 1: ")
         b = input("Número 2: ")
@@ -64,7 +61,7 @@ def sumar_dos():
         else:
             break
         finally:
-            print("Esto se ejecuta siempre.")
+            print("Esto se ejecuta siempre, como ejemplo.")
     return resultado
 
 print(sumar_dos())
