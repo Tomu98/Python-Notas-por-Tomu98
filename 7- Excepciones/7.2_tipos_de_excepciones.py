@@ -1,7 +1,8 @@
-# --- TIPOS DE EXCEPCIONES ---
+# TIPOS DE EXCEPCIONES
 
 # Python proporciona una amplia variedad de tipos de excepciones predefinidas para manejar diferentes situaciones de error.
-# Aquí tienes una explicación detallada, extensa y ejemplos de algunos de los tipos de excepciones más comunes en Python:
+# Existen más tipos de excepciones que cubren diversas situaciones de error, y también puedes crear tus propias excepciones personalizadas mediante la definición de clases que hereden de la clase "Exception".
+# Algunas de estas excepciones más comunes que trae Python son:
 
 # "SyntaxError"
 # Esta excepción se produce cuando hay un error en la sintaxis del código, lo que significa que Python no puede entender el código correctamente.
@@ -32,8 +33,3 @@
 
 # "AttributeError"
 # Se produce cuando intentas acceder a un atributo o método que no existe en un objeto.
-
-
-# Estos son solo algunos ejemplos de las excepciones más comunes en Python.
-# Existen más tipos de excepciones que cubren diversas situaciones de error, y también puedes crear tus propias excepciones personalizadas mediante la definición de clases que hereden de la clase "Exception".
-# El manejo adecuado de excepciones es fundamental para escribir programas robustos y confiables en Python.
