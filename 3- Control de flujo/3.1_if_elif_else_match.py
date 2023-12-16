@@ -1,18 +1,18 @@
-# --- CONDICIONALES ---
+# CONDICIONALES
 
-# IF - ELSE
-# Es un pedazo de codigo que si se cumple, ejecuta una determinada tarea.
+# if - else
+# Es un bloque de código que si se cumple, ejecuta una determinada tarea.
 # Ejemplo de sintaxis con una edad:
-edad = 19
-
+edad = int(input("Escribe tu edad: "))
 if edad >= 18:
-    print("Sos mayor de edad")
+    print("Eres mayor de edad")
 else:
-    print("Sos menor de edad")
+    print("Eres menor de edad")
+
 
 # Ejemplo de contraseña:
-contraseña_almacenada = "abeltomas02"
-contraseña_escrita = "abeltomas02"
+contraseña_almacenada = "abeltomas98"
+contraseña_escrita = input("Coloque su contraseña: ")
 
 if contraseña_almacenada == contraseña_escrita:
     print("INICIANDO SESIÓN...")
@@ -20,17 +20,17 @@ else:
     print("CONTRASEÑA INCORRECTA, INTENTE DE NUEVO")
 
 
-# IF - ELIF - ELSE
+# if - elif - else
 # En Python "else if" se escribe "elif".
-# Si la primer condición no se cumple, NO vamos al "else" sino a una condición siguiente.
+# Si la primera condición no se cumple, NO vamos al "else" sino a una condición siguiente.
 # Podemos agregar muchas otras condiciones con "elif".
 # Podemos anidar tantos "if" como "elif" necesitemos.
 # Ejemplo en un salario:
-ingreso_mensual = 2000
-gasto_mensual = 1000
+ingreso_mensual = int(input("Coloque su ingreso mensual: "))
+gasto_mensual = int(input("Coloque su gasto mensual: "))
 
 if ingreso_mensual - gasto_mensual < 0:
-    print("Estas en deficit locooo")
+    print("Estas en déficit amigo...")
 elif ingreso_mensual > 10000:
     if ingreso_mensual - gasto_mensual >= 3000:
         print("Estas muy bien en cualquier parte del mundo")
@@ -48,18 +48,19 @@ elif ingreso_mensual >= 500:
         print("Estas en Argentina pero gastas mucho loco")
 elif ingreso_mensual >= 250:
     if ingreso_mensual - gasto_mensual >= 65:
-        print("Estas en Venezuela chico sos rico")
+        print("Estas en Venezuela chico, eres rico")
     else:
         print("EXPROPIECE")
 else:
-    print("Sos pobre X'D")
+    print("Eres pobre :(")
 
 
-# MATCH
-# Toma una expreción y la compara con diferentes casos con sus respectivos patrones a cumplir.
-# Es similar a "switch" de C, Java o Javascript y muchos otros lenguajes.
+# match
+# Toma una expresión y la compara con diferentes casos con sus respectivos patrones a cumplir.
+# Es similar a "switch" de C, Java o JavaScript y muchos otros lenguajes.
 # Agregamos la cantidad de casos posibles para ejecutar con "case".
-# El ultimo "case" se pone "_" que actua como comodín y si ningún caso coincide, éste se ejecuta.
+# El ultimo "case" se pone guion bajo ("_") que actúa como comodín y si ningún caso coincide, éste se ejecuta.
+# Ejemplo:
 error_http = 400
 
 match error_http:
@@ -72,7 +73,7 @@ match error_http:
     case _:
         print("Something's wrong with the internet")
 
-# Tambien se pueden combinar muchos patrones en un solo case usando | ("or"):
+# También se pueden combinar muchos patrones en un solo case usando | ("or"):
 error = 404
 match error:
     case 401 | 403 | 404:
