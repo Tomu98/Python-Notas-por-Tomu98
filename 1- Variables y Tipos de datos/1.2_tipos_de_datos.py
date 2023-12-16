@@ -1,6 +1,6 @@
-# ----- TIPOS DE DATOS -----
+# TIPOS DE DATOS
 
-# Podemos poner diferentes tipos de datos: Textos, numeros y booleanos.
+# Podemos poner diferentes tipos de datos: Textos, números y booleanos.
 
 # Texto (String o "str")
 # Para colocar un texto se utiliza comillas dobles o simples.
@@ -41,7 +41,7 @@ dato_bytes = b"texto"   # bytes con prefijo "b"
 # Se puede concatenar con "+":
 bienvenida = "Hola" + " ¿Como estas?"
 
-# Tambien se puede concatenar con "f-strings"
+# También se puede concatenar con "f-strings"
 # Es la interpolación de variables y expresiones en cadenas de una manera más legible y conveniente.
 # Las "f-strings" te permiten incrustar valores de variables y expresiones dentro de cadenas.
 nombre = "Abel"
@@ -62,7 +62,7 @@ format_ejemplo = "Hola, me llamo {} {} y tengo {} años.".format(x, y, e)
 
 
 # COMENTARIOS
-# Los comentarios son lineas de código que no se ejecutan, utilizando "#" al inicio de la linea.
-# Sirven para explicar el código, hacerlo más legible y pueden ir en cualquier parte del código.
-# Tambien se utiliza ' """ ' para comentarios de varias lineas
-# Sirve por ejemplo para explicar al principio del archivo el funcionamiento del modulo.
+# Los comentarios son líneas de código que no se ejecutan, utilizando "#" al inicio de la línea.
+# Sirven para explicar el código, hacerlo más legible y pueden colocarse en cualquier parte del código.
+# Tambien se utiliza ' """ ' para comentarios de varias líneas
+# Sirve por ejemplo para explicar al principio del archivo el funcionamiento del módulo.

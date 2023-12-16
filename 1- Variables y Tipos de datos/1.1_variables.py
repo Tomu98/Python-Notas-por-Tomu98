@@ -1,6 +1,6 @@
-# --- VARIABLES ---
+# VARIABLES
 
-# Una variable es un espacio donde almacenamos datos, cada variable contiene un dato especifico.
+# Una variable es un espacio donde almacenamos datos, cada variable contiene un dato específico.
 # Las variables pueden tener un dato simple (variable) o un dato compuesto (iterable).
 # Sintaxis:
 nombre = "Dato"   # Definiendo una variable.
@@ -10,7 +10,7 @@ nombre = "Dato"   # Definiendo una variable.
 # CONVENCIONES
 # Hay diferentes tipos de convenciones para nombrar variables, funciones y constantes, algunas de estas son:
 nombre_variable = "Snake Case"   # variable con "snake_case" (recomendado en Python).
-nombreVariable = "Camel Case"   # variable con "camelCase" (recomendado en Javascript).
+nombreVariable = "Camel Case"   # variable con "camelCase" (recomendado en JavaScript).
 NombreVariable = "Pascal Case"   # variable con "Pascal Case" (clases, funciones, constantes)
 
 
@@ -60,7 +60,7 @@ print(edad)
 
 
 # VARIABLES LOCALES Y GLOBALES
-# Hay diferentes tipos de variables, estan las locales y las globales.
+# Hay diferentes tipos de variables, están las locales y las globales.
 
 # - Variables Locales:
 # Son aquellas que se definen dentro de una función y solo son accesibles dentro de esa función.

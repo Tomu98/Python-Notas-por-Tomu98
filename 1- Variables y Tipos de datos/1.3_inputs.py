@@ -1,4 +1,4 @@
-# --- INPUTS ---
+# INPUTS
 
 # Son datos que se ingresan en un programa durante su ejecución
 # Se pueden obtener utilizando la función input()
