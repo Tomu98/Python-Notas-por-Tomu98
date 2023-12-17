@@ -1,10 +1,8 @@
-# --- *ARGS ---
-
+# *ARGS
 # Permite que la función acepte cualquier cantidad de argumentos posicionales separados por coma.
-# Puedes combinar "*args" con otros parámetros en la definición de una función.
-# Sin embargo, "*args" debe aparecer al final de la lista de parámetros.
+# Puedes combinar "*args" con otros parámetros en la definición de una función, pero "*args" debe aparecer al final de la lista de parámetros.
 # Los argumentos pasados después de "*args" deben ser proporcionados mediante keyword arguments.
-# Su sintaxis es: *parametro
+# Su sintaxis es: *parámetro
 
 # Ejemplo con una función que calcula el promedio de una lista variable de números:
 def calcular_promedio(*args):
@@ -16,14 +14,13 @@ resultado = calcular_promedio(10, 20, 40, 30)
 print(f"El promedio es: {resultado}")
 
 
-# --- **KWARGS ---
+# **KWARGS
 # KEYWORD ARGUMENTS (argumentos de palabra clave).
 # Son una forma de pasar argumentos a una función utilizando nombres específicos para los parámetros.
-# Esto hace que sea más claro y legible cuál es el propósito de cada argumento.
-# Ventajas de los "Keyword Arguments":
-# - Claridad y Legibilidad: El código se vuelve más claro, ya que los valores están explícitamente vinculados a los parámetros correspondientes.
-# - Flexibilidad en el Orden: Puedes proporcionar los argumentos en cualquier orden, evita errores si una función tiene muchos parámetros.
-# - Valores Predeterminados: Pueden usarse para proporcionar valores predeterminados a los parámetros. Permite a los usuarios sobrescribir esos valores si es necesario.
+# Hace que sea más claro y legible cuál es el propósito de cada argumento.
+# El código se vuelve más claro, ya que los valores están explícitamente vinculados a los parámetros correspondientes.
+# Puedes proporcionar los argumentos en cualquier orden, evita errores si una función tiene muchos parámetros.
+# Pueden usarse para proporcionar valores predeterminados a los parámetros y permite a los usuarios sobrescribir esos valores si es necesario.
 
 # Creando una función de 3 parámetros sin "Keyword Arguments":
 def frase(nombre, apellido, adjetivo):
