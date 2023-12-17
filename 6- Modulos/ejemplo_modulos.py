@@ -1,4 +1,4 @@
-# --- EJEMPLO DE MÓDULO DEL USUARIO ---
+# EJEMPLO DE MÓDULO DEL USUARIO
 
 # Este archivo es solo un ejemplo para llamarlo desde el archivo "6.3_m_usuarios.py".
 # Abajo se encuentran dos funciones sencillas como ejemplo.
